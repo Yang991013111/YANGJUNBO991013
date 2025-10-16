@@ -98,7 +98,7 @@ img{
 }
 .con3_con>div{
     width: 48%;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -120,7 +120,7 @@ img{
 .con4_con>div{
     width: 50%;
     height: 100%;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -152,7 +152,7 @@ img{
 .con5_left{ 
     width: 100%;
     height: 100%;
-    font-size: 26px;
+    font-size: 16px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -181,7 +181,7 @@ img{
     padding-left: 40px;
 }
 .con6_left{
-    font-size: 26px;
+    font-size: 16px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
     flex: 2;
@@ -221,7 +221,7 @@ img{
     display: flex;
     align-items: start;
     justify-content: center;
-    font-size: 26px;
+    font-size: 16px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -260,7 +260,7 @@ img{
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 26px;
+    font-size: 16px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -308,7 +308,7 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 26px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
