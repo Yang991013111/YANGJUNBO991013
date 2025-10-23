@@ -1,0 +1,335 @@
+/* 在线引入谷歌字体 */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Beau+Rivage&family=Black+Ops+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.con_box{
+    transition: all 0.3s;
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    background: #D0121B;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    display: block;
+}
+.con1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con1_img{
+    width: 40vw;
+    height: 40vw;
+    background: url('./images/img1.webp') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con1_img img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+.span1{
+    font-size: 80px;
+    font-family: "Audiowide", sans-serif;
+}
+.span2{
+    font-size: 80px;
+    font-family: "Audiowide", sans-serif;
+    color: #FFF100;
+}
+.span3{
+    font-size: 80px;
+    font-family: "Audiowide", sans-serif;
+}
+.span4{
+    font-size: 80px;
+    font-family: "Audiowide", sans-serif;
+    color: #FFFFFF;
+}
+
+.con2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con2>div{
+    width: 80%;
+}
+.con2_1{
+    font-size: 7vw;
+    font-family: "Beau Rivage", cursive;
+    text-align: right;
+}
+.con2_2{
+    font-size: 7vw;
+    font-family: "Beau Rivage", cursive;
+    text-align: right;
+    margin-top: 20px;
+}
+.con3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con3_con{
+    width: 90%;
+    height: 80%;
+}
+.con3_title{
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-size: 5vw;
+    text-shadow: 0 0 20px black;
+}
+.con3_list{
+    width: 90%;
+    margin:3vw auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.con3_list>div{
+    width: 48%;
+}
+.text{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+}
+.con3_img{
+    width: 40% !important;
+}
+.con3_img img{
+    width: 100%;
+}
+.con4{
+    padding: 3vw;
+}
+.con4_list{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 2vw;
+}
+.con4_list>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.con4_img{
+    width: 100%;
+    height: 100%;
+}
+.con4_list img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.con4_text{
+    width: 100%;
+    margin: auto;
+}
+
+
+.con5{
+    padding: 3vw;
+}
+.con5_list{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 2vw;
+}
+.con5_list>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.con5_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.con5_list img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.con5_text{
+    width: 100%;
+    margin: auto;
+}
+.con6{
+    background: url('./images/img8.jpg') no-repeat center;
+    background-size: cover;
+}
+.con6_con{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Beau Rivage", cursive;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+
+.con7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con7_con{
+    width: 90%;
+    height: 80%;
+}
+.con7_title{
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-size: 5vw;
+    text-shadow: 0 0 20px black;
+}
+.con7_list{
+    width: 90%;
+    margin:3vw auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.con7_list>div{
+    width: 48%;
+}
+.con7_img{
+    width: 40% !important;
+}
+.con7_img img{
+    width: 100%;
+}
+.con8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con8_con{
+    width: 90%;
+    height: 90%;
+}
+.con8_title{
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-size: 4.5vw;
+    text-shadow: 0 0 20px black;
+}
+.con8_list{
+    width: 90%;
+    margin:3vw auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+.con8_img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+.con8_img img{
+    width: 100%;
+}
+.con9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con9_con{
+    width: 80%;
+    text-align: center;
+}
+.con10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con10_con{
+    width: 40%;
+}
+.con10_con img{
+    width: 100%;
+}
+
+.con11{
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con11 .text{
+    text-align: center;
+}
+.con11_img{
+    width: 38%;
+    margin: 3vw auto 0 auto;
+}
+.con11_img img{
+    width: 100%;
+}
+.con12{
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con12 .text{
+    text-align: center;
+}
+.con12_img{
+    width: 38%;
+    margin: 3vw auto 0 auto;
+}
+.con12_img img{
+    width: 100%;
+}
+.con13{
+    background: url('./images/img14.jpg') no-repeat center;
+    background-size: cover;
+}
